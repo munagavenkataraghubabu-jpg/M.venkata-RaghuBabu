@@ -1,0 +1,147 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+
+.navbar {
+    background-color: #111;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #00bcd4;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* Hero Section (No text-shadow used) */
+.hero {
+    background-image: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: #00bcd4;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* General Section Styling */
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.gray-bg {
+    background-color: #f4f4f4;
+}
+
+.box {
+    background: white;
+    padding: 15px;
+    max-width: 500px;
+    margin: 10px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Speaker Layout */
+.speaker-row {
+    background: white;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.speaker-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 3px solid #00bcd4;
+}
+
+.speaker-row h3 {
+    margin: 10px 0 5px 0;
+    font-size: 22px;
+}
+
+.speaker-row p {
+    margin: 0;
+    color: #666;
+}
+
+/* Clean Simple Form */
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form input,
+.form select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #111;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
